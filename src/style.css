@@ -2,3 +2,150 @@
     box-sizing: border-box;
 }
 
+body {
+   
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+     width: 100%;
+     height: 100%;
+     min-width: 950px;
+    
+} 
+#library-grid{
+    display: grid;
+    position: absolute;
+    grid-template-columns: repeat(4, auto) ;
+    grid-template-rows: 27% 27% 1fr;
+    height: 100vh;
+    width: calc(100% - 50px);
+    left: 25px;
+    text-align: center;
+    padding-top: 16px;
+    align-items: center;
+    padding-left: 20px;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+
+/* add book dialog styles */
+
+#show-dialog {
+    position: fixed;
+    width: 150px;
+    height: 50px;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.408);
+    border: none;
+    margin-bottom: 30px;
+    margin-right: 15px;
+    font-size: 1.3rem;
+    font-weight: 550;
+    border-radius: 5px;
+}
+
+
+#show-dialog:hover{
+    background:rgba(128, 128, 128, 0.514) ;
+}
+
+/* add book dialog styles end */
+
+/* book display card styles */
+
+#book-card-display {
+     background-image: url("/assets/empty-brown-wooden-book-shelf.jpg");
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     width: 100%;
+     height: 100%;
+}
+
+.book-card{
+    height: 220px;
+    width: 190px;
+    border: solid 1px black;
+    background-color: rgba(255, 255, 255, 0.517);
+    border-radius: 5px;
+    display: grid;
+    grid-template-rows: 10% 25% 10% 25% 30%;
+    grid-template-columns: 200px;
+    overflow: hidden;
+}
+.delete {
+    width: 68px;
+    height: 40px;
+    font-size: .8rem;
+    margin-left: 105px;
+    align-self: center;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.301);
+    border: none;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.743);
+    grid-row: 5;
+    grid-column: 1;
+    
+}
+
+.change-status{
+    width: 68px;
+    height: 40px;
+    margin-left: 15px;
+    align-self: center;
+    background: rgba(0, 0, 0, 0.301);
+    border-radius: 5px;
+    font-size: .8rem;
+    grid-row: 5;
+    grid-column: 1;
+
+}
+.read{
+ border-color: rgba(0, 128, 0, 0.51);
+}
+
+.not-read{
+    border-color: rgba(255, 0, 0, 0.503);
+}
+.book-title-heading{
+    border-bottom: 3px groove black;
+    height: 24px;
+    width: 120px;
+    justify-self: center;
+    grid-row: 1;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 2px;
+}
+
+.book-title{
+    grid-row: 2;
+    margin-top: 5px;
+
+}
+
+.book-author-heading{
+    grid-row: 3;
+    margin-top: 5px;
+    border-bottom: 3px groove black;
+    height: 24px;
+    width: 100px;
+    justify-self: center;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.book-author{
+    grid-row: 4;
+    margin-top: 10px;
+}
+button:hover{
+    background:rgba(128, 128, 128, 0.514) ;
+    cursor: pointer;
+}
+/* book display card styles end */

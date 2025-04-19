@@ -2,11 +2,39 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />  
+    <link rel="stylesheet" href="/src/style.css" />
     <title>Library Project</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
+    <div id="main">
+    <div id="book-card-display">
+      <div id="library-grid">
+        
+      </div>
+  </div>
+  <dialog id="enter-book-data">
+    <form id='book-data'>
+    <label for='book-title'>Book's Title:</label>
+    <input id='book-title' type='text' required/>
+    <label for='book-author'>Book's Author:</label>
+    <input id='book-author' type='text' required/>
+    <label for='book-pages'>Number of Pages:</label>
+    <input id='book-pages' type='text' required/>
+    <fieldset>
+    <legend>Have you read the book?</legend>
+    <input id='book-status-read' type='radio' name="book-status" value="read" />
+    <label for='book-status-read'>Read</label>
+    <input id='book-status-not-read' type='radio' name="book-status" value="not read" checked />
+    <label for='book-status-not-read'>Not read</label>
+    </fieldset>
+    <button id="submit-book-data" type="button">Add Book</button>
+    <button id="clear-form" type="button">Clear</button>
+    <button id="cancel" type="button">Cancel</button>
+    </form>
+  </dialog>
+  <button id="show-dialog">Add a Book</button>
+  </div>
   </body>
+  <script src="/src/main.ts"></script>
 </html>
