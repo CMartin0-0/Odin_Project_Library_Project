@@ -10,8 +10,7 @@ Welcome to my **OdinProject Library** repository! This is a practice project bui
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
-
+  
 ---
 
 ## Project Overview
@@ -108,12 +107,6 @@ Contributions are welcome! If you'd like to contribute to this project, please f
    git push origin feature-name
    ```
 5. Open a pull request on the main repository.
-
----
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ---
 
