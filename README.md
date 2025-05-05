@@ -11,13 +11,11 @@ Welcome to my **OdinProject Library** repository! This is a practice project bui
 - [Usage](#usage)
 - [Contributing](#contributing)
   
----
 
 ## Project Overview
 
 This project is a web-based library application that allows users to add, edit, and remove books from their collection. It is designed to demonstrate core concepts of web development, including DOM manipulation, event handling, and responsive design.
 
----
 
 ## Features
 
@@ -28,7 +26,6 @@ This project is a web-based library application that allows users to add, edit, 
   ## Future Planned Features
 - Persistent storage using local storage (or any other method as implemented).
 
----
 
 ## Technologies Used
 
@@ -38,7 +35,6 @@ This project is built using:
 - **CSS** (33.8%): To style the application and ensure responsive design.
 - **HTML** (17.5%): For the structure of the web application.
 
----
 
 ## Getting Started
 
@@ -77,7 +73,6 @@ Make sure you have the following installed:
    npm start
    ```
 
----
 
 ## Usage
 
@@ -87,7 +82,6 @@ Once the application is running:
 2. Use the UI to add books to your library.
 3. Mark books as read/unread or remove them from the collection.
 
----
 
 ## Contributing
 
