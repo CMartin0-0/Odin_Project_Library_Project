@@ -1,6 +1,6 @@
 # OdinProject - Library
 
-Welcome to my **OdinProject Library** repository! This is a practice project built as part of [The Odin Project]([https://www.theodinproject.com/](https://www.theodinproject.com/lessons/node-path-javascript-library)) curriculum. The goal of this project is to create a library app that allows users to manage their book collections. 
+Welcome to my **OdinProject Library** repository! This is a practice project built as part of [The Odin Project](https://www.theodinproject.com/lessons/node-path-javascript-library) curriculum. The goal of this project is to create a library app that allows users to manage their book collections. 
 
 ## Table of Contents
 
